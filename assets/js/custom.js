@@ -45,12 +45,14 @@ $(document).ready(function () {
 // });
 
 
-
-$(".testimonial-wrap").slick({
-  dots: true,
-  arrows: false,
-  infinite: true,
-  speed: 300,
-  slidesToShow: 1,
-  slidesToScroll: 1,
+$(document).ready(function () {
+  $(".testimonial-wrap").slick({
+    dots: true,
+    arrows: false,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+  });
 });
+
